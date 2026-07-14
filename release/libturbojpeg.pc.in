@@ -8,3 +8,5 @@ Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
 Version: @VERSION@
 Libs: -L${libdir} -lturbojpeg
 Cflags: -I${includedir}
+Requires.private: @PKG_REQUIRES_PRIVATE@
+Libs.private: @PKG_LIBS_PRIVATE@
